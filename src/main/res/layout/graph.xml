@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral_variant70"
+    tools:context=".homepage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="53dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="247dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/material_dynamic_neutral_variant60"
+        android:text="Home  Expenses  Reports  Help   "
+        android:textColor="#4C4C4C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="105dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/material_dynamic_neutral_variant60"
+        android:text="Logout"
+        android:textColor="#454545"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="405dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="4dp"
+        android:background="#247BB1"
+        android:backgroundTint="@color/material_dynamic_neutral_variant60"
+        android:text="Quick links: Home | Contact_us | Register | Sign in | Login                                                                                                                                                 "
+        android:textColor="#403F3F"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="238dp"
+        android:layout_height="127dp"
+        android:src="@drawable/img_6"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="158dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="@color/material_dynamic_neutral_variant60"
+        android:text="Money spent"
+        android:textColor="#454545"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="397dp"
+        android:layout_height="410dp"
+        app:srcCompat="@drawable/img_7"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
